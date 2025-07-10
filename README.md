@@ -1,9 +1,28 @@
-# mofe-time
+<div align="center">
+  <h2><b>(ICLR'25 Spotlight) Time-MoE: Billion-Scale Time Series Foundation Models with Mixture of Experts </b></h2>
+</div>
 
-## 摘要
-在过去的几十年，时间序列预测技术取得了巨大的技术进步，特别是基于预训练方法的时间序列预测技术发展非常迅速。这些技术主要包括LLM4TS和TSLLM两个技术方向，研究认为时间序列是一种可以学习的语言——用LLM辅助或者直接建模时间序列。然而时间序列本质上是一个离散的信号，现有的上述两种建模思路，并没有充分考虑时间序列的信号本征属性。为此，我们提出了一种基于MoE架构的频域学习的基础时序大模型——MoFE-Time。这种技术引入了最新的信号学习网络FAN（傅里叶分析网络）和领先的LLM基础架构MoE，创新性地将频域专家引入MoE架构中，利用MoE的路由算法，使得算法可以关注不同的频域属性，从而更好的建模时间序列的频域本征属性。我们发现相比目前时域最好的开源大模型：（1）在多个不同的数据集中，MoFE-Time模型几乎都具有更好的性能表现。（2）达到同等的零样本预测效果时，MoFE-Time具有更低的训练成本和更快的推理速度；（3）MoFE-Time 具有更好的后训练特性, 微调后模型性能在多个公开数据集上均大幅领先现有的时序模型。 据我们所知，我们的工作是首次在时间序列基础大模型中，结合MoE和信号频域本征属性学习的技术。
+<div align="center">
 
-## 技术原理
+![](https://img.shields.io/github/last-commit/Time-MoE/Time-MoE?color=green)
+![](https://img.shields.io/github/stars/Time-MoE/Time-MoE?color=yellow)
+![](https://img.shields.io/github/forks/Time-MoE/Time-MoE?color=lightblue)
+![](https://img.shields.io/badge/PRs-Welcome-green)
+
+</div>
+
+<div align="center">
+
+**[<a href="https://arxiv.org/abs/2409.16040">Paper Page</a>]**
+**[<a href="https://mp.weixin.qq.com/s/LaYn0IJAOlN9Ufp_qus96Q">中文解读</a>]**
+
+</div>
+
+## Abstract
+As a prominent data modality task, time series forecasting plays a pivotal role in diverse applications. With the remarkable advancements in Large Language Models (LLMs), the adoption of LLMs as the foundational architecture for time series modeling has gained significant attention. Although existing models achieve some success, they rarely both model time and frequency characteristics in a pretraining-finetuning paradigm leading to suboptimal performance in predictions of complex time series, which requires both modeling periodicity and prior pattern knowledge of signals. We propose MoFE-Time, an innovative time series forecasting model that integrates time and frequency domain features within a Mixture of Experts (MoE) network. Moreover, we use the pretraining-finetuning paradigm as our training framework to effectively transfer prior pattern knowledge across pretraining and finetuning datasets with different periodicity distributions. Our method introduces both frequency and time cells as experts after attention modules and leverages the MoE routing mechanism to construct multidimensional sparse representations of input signals. In experiments on six public benchmarks, MoFE-Time has achieved new state-of-the-art performance, reducing MSE and MAE by 6.95% and 6.02% compared to the representative methods Time-MoE. Beyond the existing evaluation benchmarks, we have developed a proprietary dataset, NEV-sales, derived from real-world business scenarios. Our method achieves outstanding results on this dataset, underscoring the effectiveness of the MoFE-Time model in practical commercial applications.
+
+
+## Paper
 paper: https://arxiv.org/abs/2507.06502
 
 <img width="553" alt="image" src="https://github.com/user-attachments/assets/c3ffe966-2556-4340-8d0b-a5653ad95eb0" />
