@@ -24,7 +24,7 @@ paper: https://arxiv.org/abs/2507.06502
    从huggingface 中下载数据
    https://huggingface.co/datasets/Maple728/Time-300B
 3. 使用启动脚本
-   ./
+    `./`
 
 ### fine tune
 
