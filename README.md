@@ -39,11 +39,17 @@ paper: https://arxiv.org/abs/2507.06502
 
    download from huggingface
    https://huggingface.co/datasets/Maple728/Time-300B
+2. Install Pytorch and other dependencies.
+   ```
+   pip install -r requirements.txt
+   ```
 3. start pretrain
-    ```./```
-
+   
+    ```sh ./src/pretrain_and_eval_ds.sh```
+   Pretrain on Multiple Nodes
+    ```sh ./src/pretrain_and_eval_nodes.sh```
 ### fine tune
-
+    ```sh ./src/fine_tune_ds.sh```
 ### infer
 
 ## Citation
@@ -78,4 +84,22 @@ paper: https://arxiv.org/abs/2507.06502
   2023. [\[paper\]](https://arxiv.org/abs/2202.07125) [\[GitHub Repo\]](https://github.com/qingsongedu/time-series-transformers-review)
 * A Survey on Graph Neural Networks for Time Series: Forecasting, Classification, Imputation, and Anomaly Detection, in *TPAMI* 2024. [\[paper\]](https://arxiv.org/abs/2307.03759) [\[Website\]](https://github.com/KimMeen/Awesome-GNN4TS)
 
+## Acknowledgement
+We appreciate the following GitHub repos a lot for their valuable code and efforts.
+
+Time-MoE (https://github.com/Time-MoE/Time-MoE)
+
+Time-Series-Library （https://github.com/thuml/Time-Series-Library）
+
+Chronos (https://github.com/amazon-science/chronos-forecasting)
+
+Times-FM (https://github.com/google-research/timesfm)
+
+Moirai(https://github.com/SalesforceAIResearch/uni2ts)
+
+## Concat 
+If you have any question of our method or code, please concate liuyiwen@lixiang.com
+
+## Other Work
+asLLR: LLM Based Leads Raking In Auto Sales（https://github.com/alg-znsy-li/as_llr）
 
