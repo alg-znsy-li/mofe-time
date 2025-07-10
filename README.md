@@ -1,20 +1,17 @@
 <div align="center">
-  <h2><b>(ICLR'25 Spotlight) Time-MoE: Billion-Scale Time Series Foundation Models with Mixture of Experts </b></h2>
+  <h2><b>MoFE-Time: Mixture of Frequency Domain Experts for Time-Series Forecasting Models
+ </b></h2>
 </div>
 
 <div align="center">
 
-![](https://img.shields.io/github/last-commit/Time-MoE/Time-MoE?color=green)
-![](https://img.shields.io/github/stars/Time-MoE/Time-MoE?color=yellow)
-![](https://img.shields.io/github/forks/Time-MoE/Time-MoE?color=lightblue)
-![](https://img.shields.io/badge/PRs-Welcome-green)
 
 </div>
 
 <div align="center">
 
-**[<a href="https://arxiv.org/abs/2409.16040">Paper Page</a>]**
-**[<a href="https://mp.weixin.qq.com/s/LaYn0IJAOlN9Ufp_qus96Q">中文解读</a>]**
+**[<a href="[https://arxiv.org/abs/2409.16040](https://arxiv.org/abs/2507.06502)">Paper Page</a>]**
+
 
 </div>
 
