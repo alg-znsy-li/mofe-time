@@ -10,7 +10,7 @@
 
 <div align="center">
 
-**[<a href="[https://arxiv.org/abs/2409.16040](https://arxiv.org/abs/2507.06502)">Paper Page</a>]**
+**[<a href="https://arxiv.org/abs/2507.06502">Paper Page</a>]**
 
 
 </div>
