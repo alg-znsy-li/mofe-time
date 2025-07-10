@@ -1,0 +1,16 @@
+CUDA_VISIBLE_DEVICES=1,2,5,6 torchrun --nproc_per_node=4 main.py  \
+    --do_train \
+    --do_eval \
+    --train_data_path ../data/Time-300B-4Test/ \
+    --eval_data_path ../data/Benchmark/ETT-small/ETTh1.csv \
+    --output_path ../output/models/ \
+    --lr 0.001 \
+    --warmup_steps 3000 \
+    --batch_size 2 \
+    --evaluate_step_num 100 \
+    --context_length 4096 \
+    --eval_context_length 256 \
+    --prediction_length 48 \
+    --model_path ../cfg/horae_50m.json \
+    --epochs 1 \
+    --use_ds
