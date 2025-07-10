@@ -15,19 +15,51 @@ paper: https://arxiv.org/abs/2507.06502
 ### full-shot
 <img width="461" alt="image" src="https://github.com/user-attachments/assets/410fe74b-06cd-4a5c-a43f-fe39f95e17a8" />
 
-## 使用方法
-### 预训练
-1. 数据准备
-   预训练数据统计分布
+## Usage
+### pretrain
+1. data prepare
+   
    ![image](https://github.com/user-attachments/assets/4b17181a-6ff7-480f-b66a-e4116d615c04)
 
-   从huggingface 中下载数据
+   download from huggingface
    https://huggingface.co/datasets/Maple728/Time-300B
-3. 使用启动脚本
-    `./`
+3. start pretrain
+    ```./```
 
 ### fine tune
 
 ### infer
+
+## Citation
+
+> 🙋 Please let us know if you find out a mistake or have any suggestions!
+
+> 🌟 If you find the MOFE-Time models helpful in your research, please consider to star this repository and cite the
+> corresponding
+
+```
+@misc{liu2025mofetimemixturefrequencydomain,
+      title={MoFE-Time: Mixture of Frequency Domain Experts for Time-Series Forecasting Models}, 
+      author={Yiwen Liu and Chenyu Zhang and Junjie Song and Siqi Chen and Sun Yin and Zihan Wang and Lingming Zeng and Yuji Cao and Junming Jiao},
+      year={2025},
+      eprint={2507.06502},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2507.06502}, 
+}
+```
+
+## Related Resources
+* TimeMixer++: A General Time Series Pattern Machine for Universal Predictive Analysis, in arXiv 2024. [\[paper\]](https://arxiv.org/abs/2410.16032) [\[GitHub Repo\]](https://github.com/kwuking/TimeMixer)
+* Towards Neural Scaling Laws for Time Series Foundation Models, arXiv 2024. [\[paper\]](https://arxiv.org/pdf/2410.12360)
+* Foundation Models for Time Series Analysis: A Tutorial and Survey, in *KDD*
+  2024. [\[paper\]](https://arxiv.org/abs/2403.14735) [\[Tutorial\]](https://wenhaomin.github.io/FM4TS.github.io/)
+* What Can Large Language Models Tell Us about Time Series Analysis, in *ICML*
+  2024. [\[paper\]](https://arxiv.org/abs/2402.02713)
+* Self-Supervised Learning for Time Series Analysis: Taxonomy, Progress, and Prospects, in *TPAMI*
+  2024. [\[paper\]](https://arxiv.org/abs/2306.10125) [\[Website\]](https://github.com/qingsongedu/Awesome-SSL4TS)
+* Transformers in Time Series: A Survey, in *IJCAI*
+  2023. [\[paper\]](https://arxiv.org/abs/2202.07125) [\[GitHub Repo\]](https://github.com/qingsongedu/time-series-transformers-review)
+* A Survey on Graph Neural Networks for Time Series: Forecasting, Classification, Imputation, and Anomaly Detection, in *TPAMI* 2024. [\[paper\]](https://arxiv.org/abs/2307.03759) [\[Website\]](https://github.com/KimMeen/Awesome-GNN4TS)
 
 
