@@ -24,12 +24,19 @@ paper: https://arxiv.org/abs/2507.06502
 
 <img width="553" alt="image" src="https://github.com/user-attachments/assets/c3ffe966-2556-4340-8d0b-a5653ad95eb0" />
 
-## 主要技术指标
-### zero-shot
+## Main Results
+Experimental results demonstrate that our method achieve
+SOTA on six public datasets and NEV-sales, which demonstrates the effectiveness of the MoFE-Time model.
+### FineTune Results for Six Public Datasets
+<p align="center">
+<img src=".\figures\main_result.png" width = "800" height = "" alt="" align=center />
 
+### FineTune Results for Proprietary Dataset NEV-sales
+<img src=".\figures\nev_sales.png" width = "800" height = "" alt="" align=center />
 
-### full-shot
-<img width="461" alt="image" src="https://github.com/user-attachments/assets/410fe74b-06cd-4a5c-a43f-fe39f95e17a8" />
+### Ablation Study
+<img src=".\figures\ablation.png" width = "800" height = "" alt="" align=center />
+</p>
 
 ## Usage
 ### pretrain
@@ -49,6 +56,7 @@ paper: https://arxiv.org/abs/2507.06502
    Pretrain on Multiple Nodes
     ```sh ./src/pretrain_and_eval_nodes.sh```
 ### fine tune
+
     ```sh ./src/fine_tune_ds.sh```
 ### infer
 
