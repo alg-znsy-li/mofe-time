@@ -107,7 +107,7 @@ Times-FM (https://github.com/google-research/timesfm)
 Moirai(https://github.com/SalesforceAIResearch/uni2ts)
 
 ## Concat 
-If you have any questions of our method or code, please concate caoyuji@lixiang.com or liuyiwen@lixiang.com 
+If you have any questions or want to use the code, please contact caoyuji@lixiang.com or liuyiwen@lixiang.com 
 
 ## Other Work
 asLLR: LLM Based Leads Raking In Auto Sales（https://github.com/alg-znsy-li/as_llr）
