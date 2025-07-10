@@ -18,7 +18,7 @@
 ## Abstract
 As a prominent data modality task, time series forecasting plays a pivotal role in diverse applications. With the remarkable advancements in Large Language Models (LLMs), the adoption of LLMs as the foundational architecture for time series modeling has gained significant attention. Although existing models achieve some success, they rarely both model time and frequency characteristics in a pretraining-finetuning paradigm leading to suboptimal performance in predictions of complex time series, which requires both modeling periodicity and prior pattern knowledge of signals. We propose MoFE-Time, an innovative time series forecasting model that integrates time and frequency domain features within a Mixture of Experts (MoE) network. Moreover, we use the pretraining-finetuning paradigm as our training framework to effectively transfer prior pattern knowledge across pretraining and finetuning datasets with different periodicity distributions. Our method introduces both frequency and time cells as experts after attention modules and leverages the MoE routing mechanism to construct multidimensional sparse representations of input signals. In experiments on six public benchmarks, MoFE-Time has achieved new state-of-the-art performance, reducing MSE and MAE by 6.95% and 6.02% compared to the representative methods Time-MoE. Beyond the existing evaluation benchmarks, we have developed a proprietary dataset, NEV-sales, derived from real-world business scenarios. Our method achieves outstanding results on this dataset, underscoring the effectiveness of the MoFE-Time model in practical commercial applications.
 
-checkpoint will release soon！！！
+checkpoint will release soon ^-^
 ## Paper
 paper: https://arxiv.org/abs/2507.06502
 
@@ -53,6 +53,7 @@ SOTA on six public datasets and NEV-sales, which demonstrates the effectiveness 
 3. start pretrain
    
     ```sh ./src/pretrain_and_eval_ds.sh```
+   
    Pretrain on Multiple Nodes
     ```sh ./src/pretrain_and_eval_nodes.sh```
 ### fine tune
@@ -106,7 +107,7 @@ Times-FM (https://github.com/google-research/timesfm)
 Moirai(https://github.com/SalesforceAIResearch/uni2ts)
 
 ## Concat 
-If you have any question of our method or code, please concate liuyiwen@lixiang.com
+If you have any questions of our method or code, please concate caoyuji@lixiang.com or liuyiwen@lixiang.com 
 
 ## Other Work
 asLLR: LLM Based Leads Raking In Auto Sales（https://github.com/alg-znsy-li/as_llr）
