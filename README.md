@@ -1,5 +1,6 @@
 <div align="center">
-  <h2><b>预测基座大模型 MoFE-Time: Mixture of Frequency Domain Experts for Time-Series Forecasting Models
+  预测基座大模型
+  <h2><b> MoFE-Time: Mixture of Frequency Domain Experts for Time-Series Forecasting Models
  </b></h2>
 </div>
 
