@@ -18,7 +18,13 @@ paper: https://arxiv.org/abs/2507.06502
 ## 使用方法
 ### 预训练
 1. 数据准备
-2. 使用启动脚本
+   预训练数据统计分布
+   ![image](https://github.com/user-attachments/assets/4b17181a-6ff7-480f-b66a-e4116d615c04)
+
+   从huggingface 中下载数据
+   https://huggingface.co/datasets/Maple728/Time-300B
+3. 使用启动脚本
+   ./
 
 ### fine tune
 
