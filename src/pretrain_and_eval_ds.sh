@@ -11,6 +11,6 @@ CUDA_VISIBLE_DEVICES=1,2,5,6 torchrun --nproc_per_node=4 main.py  \
     --context_length 4096 \
     --eval_context_length 256 \
     --prediction_length 48 \
-    --model_path ../cfg/mofe_50m.json \
+    --model_path ../cfg/mofe_20m.json \
     --epochs 1 \
     --use_ds

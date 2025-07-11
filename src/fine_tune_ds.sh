@@ -10,6 +10,6 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 torchrun --nproc_per_node=8 main.py  \
     --batch_size 16 \
     --eval_context_length 512 \
     --prediction_length 96 \
-    --model_path ../cfg/mofe_50m.json \
+    --model_path ../cfg/mofe_20m.json \
     --epochs 1 \
     --use_ds 2>&1 | tee -a /lpai/output/logs/log.txt
