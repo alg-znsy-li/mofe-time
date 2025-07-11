@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h2><b>预测基座大模型 
+  <h2><b>预测基座大模型 【From 理想汽车-智能商业-算法团队】
     MoFE-Time: Mixture of Frequency Domain Experts for Time-Series Forecasting Models
  </b></h2>
 </div>
