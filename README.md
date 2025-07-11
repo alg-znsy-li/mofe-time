@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h2><b>预测基座大模型 【From 理想汽车-智能商业-算法团队】
+  <h2><b>预测基座大模型 
     MoFE-Time: Mixture of Frequency Domain Experts for Time-Series Forecasting Models
  </b></h2>
 </div>
@@ -118,4 +118,7 @@ If you have any questions or want to use the code, please contact caoyuji@lixian
 
 ## Other Work
 asLLR: LLM Based Leads Raking In Auto Sales（[https://github.com/alg-znsy-li/as_llr](https://github.com/alg-znsy-li/as_llr)）
+
+## About US
+理想汽车-智能商业-算法团队
 
