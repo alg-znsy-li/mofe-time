@@ -47,16 +47,17 @@ SOTA on six public datasets and NEV-sales, which demonstrates the effectiveness 
 ## Usage
 ### pretrain
 1. data prepare
+
    
    ![image](https://github.com/user-attachments/assets/4b17181a-6ff7-480f-b66a-e4116d615c04)
 
    download from huggingface
    https://huggingface.co/datasets/Maple728/Time-300B
-2. Install Pytorch and other dependencies.
+3. Install Pytorch and other dependencies.
    ```
    pip install -r requirements.txt
    ```
-3. start pretrain
+4. start pretrain
    
     ```sh ./src/pretrain_and_eval_ds.sh```
    
