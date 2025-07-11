@@ -18,7 +18,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 torchrun --nproc_per_node=8 \
 	--evaluate_step_num 10240 \
     --eval_context_length 512 \
     --prediction_length 96 \
-    --model_path ../cfg/horae_100m.json \
+    --model_path ../cfg/mofe_100m.json \
     --epochs 1 \
     --use_ds \
     --version mofe_100m_pre
